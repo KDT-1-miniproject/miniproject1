@@ -82,7 +82,7 @@
    
 
         let size =  $("#postSize").val();
-        fo
+        
         for (let i = 1; i <=size; i++) { // for문 방식이 안되는 거네 
             deadline = new Date($("#deadline-"+i).val());
             dDay = Math.ceil((deadline-today)/currDay);
