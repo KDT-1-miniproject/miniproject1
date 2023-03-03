@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import shop.mtcoding.miniproject.dto.post.PostResp.PostMainRespDto;
-import shop.mtcoding.miniproject.dto.post.PostResp.PostRecommendRespDto;
+import shop.mtcoding.miniproject.dto.post.PostResp.PostRecommendTimeStampResDto;
 import shop.mtcoding.miniproject.dto.post.PostResp.PostTitleRespDto;
 
 @Mapper
@@ -20,7 +20,7 @@ public interface PostRepository {
 
         public List<PostMainRespDto> findAllWithCInfo();
 
-        public PostRecommendRespDto findAllWithLogoById(int postId);
+        public PostRecommendTimeStampResDto findByPostIdToRecmmend(int postId);
 
         public int insert(Post post);
         // @Param("title") String title, @Param("cInfoId") int cInfoId,

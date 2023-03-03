@@ -30,7 +30,7 @@ public class PostResp {
 
     @Getter
     @Setter
-    public static class PostRecommendRespDto {
+    public static class PostRecommendTimeStampResDto {
         private int postId;
         private String title;
         private Timestamp deadline;
@@ -41,13 +41,12 @@ public class PostResp {
 
     @Getter
     @Setter
-    public static class PostRecommendStringRespDto {
+    public static class PostRecommendIntegerRespDto {
         private int postId;
         private String title;
-        private int deadline;
+        private Integer deadline;
         private String logo;
         private String name;
         private String address;
     }
-
 }
