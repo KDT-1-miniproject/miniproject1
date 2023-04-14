@@ -1,11 +1,17 @@
 # 구인구직 프로젝트
+![image](https://user-images.githubusercontent.com/80329856/232003130-0d034b5c-6d6f-447e-a9ac-aac21f46c4d5.png)
 
 ## 기술스택
+![image](https://user-images.githubusercontent.com/80329856/232003244-16c70937-4628-4776-b315-eb2f4d6e5882.png)
 - JDK 11
 - Springboot 2.7.8
 - MyBatis
 - 테스트 h2 디비
 - 프로덕션(배포) MySQL 디비
+- HTML
+- CSS
+- JAVAScript
+- Bootstrap
 - JSP
 - Redis
 
@@ -59,3 +65,21 @@
 - 페이징
 - 기업에 대한 평점
 - 메인 구인 공고 필터링 
+
+## 코드 컨벤션
+![image](https://user-images.githubusercontent.com/80329856/232003943-c74063a4-a3ec-47d0-9842-bf9e8fc84606.png)
+
+## 프로젝트 아키텍처 : MVC 설계
+![image](https://user-images.githubusercontent.com/80329856/232003917-728f01dd-47a2-40bc-92c7-e5cbbb156ebb.png)
+
+## 테이블 설계
+![image](https://user-images.githubusercontent.com/80329856/232004012-a5d0e812-f50b-46f2-812c-f9488aecacd4.png)
+
+## 협업 전략
+### github
+- Organaization을 이용해 하나의 팀을 먼저 만들고 레파지토리를 생성 및 세팅
+    - 팀장의 레파지토리에 초대하는 것 보다 하나의 팀을 만들어서 같은 레파지토리를 보는 것이 좋겠다 판단
+    - 또한 이 팀원으로 두번째 프로젝트를 진행할 때 다시 초대할 일 없이 계속해서 이용 가능함
+- master-dev-topic으로 각자의 토픽에 해야 할 일을 설정하고 dev에 merge
+### 일정관리
+- 처음에는 일정관리 시트를 만들어서 미리 시간이 안되는 날을 체크하여, 가능한 날 주기적으로 오후 7시~9시에 만나서 짧은 회의와 정리를 진행 
