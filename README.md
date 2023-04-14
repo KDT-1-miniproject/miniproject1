@@ -119,7 +119,7 @@
 ![image](https://user-images.githubusercontent.com/80329856/232003917-728f01dd-47a2-40bc-92c7-e5cbbb156ebb.png)
 
 ## 테이블 설계
-![image](https://user-images.githubusercontent.com/80329856/232004012-a5d0e812-f50b-46f2-812c-f9488aecacd4.png)
+![image](https://user-images.githubusercontent.com/80329856/232017269-16d60e51-3727-48e7-abee-6b7469deb8ff.png)
 
 ## 협업 전략
 ### github
