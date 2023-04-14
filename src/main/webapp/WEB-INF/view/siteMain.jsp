@@ -1,26 +1,70 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-    <%@ include file="layout/header.jsp" %>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+        <!DOCTYPE html>
+        <html lang="en">
 
-    <div class="container px-4 text-center mt-5 mb-5 w-50">
-        <div class="row gx-5">
-            <div class="col p-4">
-                 <div class="card main_card" style="width:290px;">
-                    <img src="/images/card.png" class="card-img-top">
-                    <div class="card-body align-self-center">
-                        <button type="button" class="btn btn-dark btn-lg" onClick="location.href='/personLoginForm'">개인 회원</button>
-                    </div>
+        <head>
+            <title>INITi</title>
+            <meta charset="utf-8">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://kit.fontawesome.com/32aa2b8683.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+            <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+            <link rel="stylesheet" href="/css/style.css">
+        </head>
+
+        <body>
+            <header>
+                <input type="hidden" id="current" val="siteMain" />
+
+
+                <div class="mt-2">
+                    <nav class="sj_full_container navbar bg-body-tertiary">
+                        <div class="container mt-3" style="display: block; width: 100%; text-align: center;">
+                            <a class="navbar-brand fs-2" href="/">
+                                <img src="/images/INITilogo.png" width="90px;" height="60"
+                                    class="d-inline-block align-text-top">
+                                    <br>
+                                <img src="/images/logob.png" class="mt-3 d-inline-block ms-3" width="90px;">
+                            </a>
+                        </div>
+                    </nav>
                 </div>
-            </div>
-            <div class="col p-4">
-                <div class="card main_card" style="width:290px;">
-                    <img src="/images/card.png" class="card-img-top">
-                    <div class="card-body align-self-center">
-                        <button type="button" class="btn btn-dark btn-lg" onClick="location.href='/companyLoginForm'">기업 회원</button>
+               
+                <div class="container px-4 my-5 w-50 " style="height: 800px;">
+
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+                            <a href="/personLoginForm" style="color: inherit; text-decoration: none;">
+                                <div class="card main_card" style="width:320px; height: 400px;">
+                                    <div class="d-flex align-items-center justify-content-center ">
+                                        <img src="/images/user1.png" class="card-img-top w-100 h-100">
+                                    </div>
+                                    <div class="card-body align-self-center mt-2">
+                                        <h3>개인 회원</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="/companyLoginForm" style="color: inherit; text-decoration: none; ">
+                                <div class="card main_card" style="width:320px; height: 400px;">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <img src="/images/company.png" class="card-img-top w-100 h-100">
+                                    </div>
+                                    <div class="card-body align-self-center mt-2">
+                                        <h3>기업 회원</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
                     </div>
+
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-    <%@ include file="layout/footer.jsp" %>
+                <%@ include file="layout/footer.jsp" %>

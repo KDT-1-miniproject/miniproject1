@@ -11,24 +11,36 @@
 
     <select id="findById" resultType="shop.mtcoding.miniproject.model.User">
         select * from user_tb where id = #{id}
-    </select>   
+    </select>
+
+    <select id="findByPersonId" resultType="shop.mtcoding.miniproject.model.User">
+        select * from user_tb where p_info_id = #{pInfoId}
+    </select>
 
     <select id="findByEmail" resultType="shop.mtcoding.miniproject.model.User">
         select * from user_tb where email = #{email}
-    </select> 
-    <select id="findByEmailAndPassword" resultType="shop.mtcoding.miniproject.model.User">
-        select * from user_tb where email = #{email} and password = #{password}
-    </select> 
+    </select>
+
+    <select id="findPersonByEmailAndPassword" resultType="shop.mtcoding.miniproject.model.User">
+        select * from user_tb where email = #{email} and password = #{password} and c_info_id = 0
+    </select>
+
+    <select id="findCompanyByEmailAndPassword" resultType="shop.mtcoding.miniproject.model.User">
+        select * from user_tb where email = #{email} and password = #{password} and p_info_id = 0
+    </select>
 
     <insert id="insert">
-        insert into user_tb (email, password, p_info_id, c_info_id, created_at) values(#{email}, #{password}, #{pInfoId},  #{cInfoId}, now())
-    </insert>    
+        insert into user_tb (email, password, salt, p_info_id, c_info_id, created_at) values(#{email}, #{password}, #{salt}, #{pInfoId},  #{cInfoId}, now())
+    </insert>
 
-    <delete id="deleteById" >
+    <delete id="deleteById">
         delete from user_tb where id = #{id} 
-    </delete>    
+    </delete>
 
-    <update id="updateById" >
-        update user_tb set email= #{email},password= #{password}, p_info_id= #{pInfoId},c_infoid= #{cInfoId},created_at=#{createdAt} where id = #{id} 
-    </update>    
+    <update id="updateById">
+        update user_tb set email= #{email} ,password= #{password}
+            , p_info_id= #{pInfoId} ,c_info_id= #{cInfoId} ,created_at=#{createdAt} 
+            where id = #{id} 
+    </update>
+
 </mapper>

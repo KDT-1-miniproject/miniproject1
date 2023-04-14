@@ -1,19 +1,98 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: 'LINESeedKR-Bd';
+
+}
+
+header {
+    height: 60px;
+}
+
+footer {
+    height: 60px;
+}
+
+.sj_login_join a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navcolor {
+    background-color: white;
+}
+
+.init_border {
+    border-bottom: solid 3px #a8e455;
+    padding-bottom: 2px;
+}
+
+.sj_full_container {
+    min-height: calc(100% - 210px);
+    min-width: 1300px;
+    max-width: none !important;
+}
+
 .main_body {
     background-image: url("/images/bg.jpg");
 }
 
 .main_card {
+    border: none;
     margin: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+}
+
+.main_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 .list-group :hover {
-    background-color: darkorange;
-    color: white;
+    background-color: #a8e455;
+    color: black;
 }
 
+.init_color {
+    background-color: #a8e455;
+}
+
+.init_color:hover {
+    background-color: #a8e455;
+}
+
+
 .hs_list_effect {
-    background-color: darkorange;
-    color: white;
+    background-color: #a8e455;
+}
+
+.hs_hover {
+    cursor: pointer;
+}
+
+.hs_input_title {
+    border: none;
+    outline: none;
 }
 
 .hs_line {
@@ -24,18 +103,22 @@
     width: 110px;
 }
 
+.hs_span {
+    border: none;
+    outline: none;
+}
+
 .container {
     width: 1300px;
     max-width: none !important;
 }
 
-.sj_full_container {
-    min-width: 1024px;
-    max-width: none !important;
+.proposalBtn:hover {
+    background-color: #a8e455;
 }
 
-.jm_body {
-    background-color: #ffffff;
+.proposalBtn:active {
+    border-style: none;
 }
 
 .jm_select_box {
@@ -43,6 +126,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 2px;
+}
+
+a {
+    color: #2c741d;
+    text-decoration: none;
 }
 
 .jm_select {
@@ -54,18 +142,33 @@
     border-color: #e0dcd6;
 }
 
-.jm_container {
-    /* display: flex; */
+/* .jm_container {
+  //  display: flex; 
     justify-content: center;
     text-align: center;
     margin-top: 30px;
-    background-color: #f3f2f0;
     padding: 50px;
 }
+*/
 
 .jm_card {
     padding: 25px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
 }
+
+
+.jm_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    border: 2px solid #a8e455;
+
+}
+
+.scrap_icon {
+    color: #a8e455;
+}
+
 
 .jm_card_img_top {
     height: 10rem;
@@ -105,6 +208,9 @@
     float: right;
 }
 
+.data-bs-toggle {
+    background-color: #a8e455;
+}
 
 .jh_flex_container {
     display: flex;
@@ -127,7 +233,8 @@
 .jh_resume_button {
     width: 900px;
     padding: 30px;
-    border-color: lightgray;
+    border-color: #eee;
+    background-color: white;
     font-size: larger;
 }
 
@@ -137,19 +244,34 @@
     padding: 25px;
 }
 
+.jh_resume_personal_info {
+    width: 50%;
+}
+
 .jh_resume_table tr,
-td {
+.jh_resume_table td {
     border: 1px solid lightgray;
     padding: 10px;
 }
 
-.jh_resume_table tr td:first-child {
-    background-color: orange;
+.jh_resume_table td:first-child {
+    background-color: #a8e455;
     text-align: center;
+    width: 100px;
 }
 
-.jh_resume_table tr td:last-child {
-    width: 450px;
+.jh_resume_table tr:last-child,
+.jh_resume_table td:last-child {
+    width: 400px;
+}
+
+.jh_resume_table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    color: black;
+    border: 20px grey;
 }
 
 .jh_resume_flexbox {
@@ -172,4 +294,125 @@ td {
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 16px;
+}
+
+.event__search__floater {
+    position: fixed;
+    top: 90%;
+    right: 3%;
+    transition: all ease-in-out 0.2s;
+    transform: translate(-50%, -50%);
+}
+
+.search__anchor {
+    position: relative;
+    width: auto;
+    height: auto;
+    /*   TODO: Center anchor */
+}
+
+.search__submit {
+    opacity: 0;
+    width: 0px;
+}
+
+.search__bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    outline: none;
+    border: 5px solid yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    opacity: 0;
+    z-index: 5;
+    transition: all 0.2;
+    font-size: 1em;
+}
+
+.search__bar:hover {
+    cursor: pointer;
+}
+
+.search__bar:focus {
+    width: 300px;
+    left: auto;
+    opacity: 1;
+    cursor: text;
+    transition: all 0.2;
+    padding-left: 25px;
+    padding-right: 70px;
+}
+
+.search__toggler {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: orange;
+    opacity: 1;
+    top: -4px;
+    left: -4px;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.search__toggler:hover {
+    cursor: pointer;
+}
+
+.search__toggler::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    top: 22px;
+    right: 0;
+    bottom: 0;
+    left: 22px;
+    width: 12px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all 0.2s;
+}
+
+.search__toggler::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    top: -5px;
+    right: 0;
+    bottom: 0;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all 0.2s;
+}
+
+.search__bar:focus~.search__toggler {
+    right: 400px;
+    background: #151515;
+    z-index: 6;
+    transition: all 0.2;
+}
+
+.search__bar:focus~.search__toggler::before {
+    top: 0;
+    left: 0;
+    width: 25px;
+}
+
+.search__bar:focus~.search__toggler::after {
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    border: none;
+    background: white;
+    border-radius: 0%;
+    transform: rotate(-45deg);
 }

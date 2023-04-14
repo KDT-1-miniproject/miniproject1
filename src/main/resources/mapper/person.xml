@@ -11,23 +11,39 @@
 
     <select id="findById" resultType="shop.mtcoding.miniproject.model.Person">
         select * from person_info_tb where id = #{id}
-    </select>   
+    </select>
 
-    <insert id="insert">
-        insert into person_info_tb (p_name, created_at) 
+    <!-- <insert id="insert">
+        insert into person_info_tb (name, created_at) 
             values(#{name}, now())
-    </insert>    
+    </insert>     -->
 
-    <delete id="deleteById" >
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into person_info_tb (name, created_at) values (#{name}, now())
+    </insert>
+
+    <delete id="deleteById">
         delete from person_info_tb where id = #{id} 
-    </delete>    
+    </delete>
 
-    <update id="updateById" >
-        update person_info_tb set p_name = #{name},
-                                   p_phone = #{phone},
-                                   p_address = #{address},
-                                   p_birthday = #{birthday},
-                                   created_at = #{createdAt},
+
+    <update id="updateById">
+        update person_info_tb set name = #{name},
+                                   phone = #{phone},
+                                   address = #{address},
+                                   birthday = #{birthday},
+                                   created_at = #{createdAt}
                                    where id = #{id} 
-    </update>    
+    </update>
+
+
+    <select id="findByPersonNameAndEmail" resultType="shop.mtcoding.miniproject.model.Person">
+        SELECT user_tb.email, person_info_tb.name
+        FROM user_tb
+        LEFT JOIN person_info_tb
+        ON user_tb.p_info_id = person_info_tb.id
+        WHERE person_info_tb.name = #{name}
+        AND user_tb.email = #{email};
+    </select>
+
 </mapper>
