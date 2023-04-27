@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/80329856/232003130-0d034b5c-6d6f-447e-a9ac-aac21f46c4d5.png)
 
 # 시연 영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZHjjhayQqIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![시연 영상](https://youtu.be/ZHjjhayQqIM/0.jpg)](https://youtu.be/ZHjjhayQqIM)
 
 ## PPT
 [1조_미니프로젝트1_PPT.pdf](https://github.com/KDT-1-miniproject/miniproject1/files/11340943/1._.1_PPT.pdf)
