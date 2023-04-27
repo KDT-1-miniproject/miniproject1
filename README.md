@@ -2,6 +2,7 @@
 ![image](https://user-images.githubusercontent.com/80329856/232003130-0d034b5c-6d6f-447e-a9ac-aac21f46c4d5.png)
 
 # 시연 영상
+사진을 누르면 유튜브로 이동합니다.
 [![시연영상](http://img.youtube.com/vi/ZHjjhayQqIM/0.jpg)](https://youtu.be/ZHjjhayQqIM)
 
 ## PPT
