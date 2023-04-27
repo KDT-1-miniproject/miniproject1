@@ -1,9 +1,10 @@
 # 구인구직 프로젝트
 ![image](https://user-images.githubusercontent.com/80329856/232003130-0d034b5c-6d6f-447e-a9ac-aac21f46c4d5.png)
 
+
 # 시연 영상
-사진을 누르면 유튜브로 이동합니다.
 [![시연영상](http://img.youtube.com/vi/ZHjjhayQqIM/0.jpg)](https://youtu.be/ZHjjhayQqIM)
+사진을 누르면 유튜브로 이동합니다.
 
 ## PPT
 [1조_미니프로젝트1_PPT.pdf](https://github.com/KDT-1-miniproject/miniproject1/files/11340943/1._.1_PPT.pdf)
