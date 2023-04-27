@@ -114,6 +114,8 @@
 
 
 # 시연 영상
+https://www.youtube.com/watch?v=ZHjjhayQqIM 
+
 ### 구직자 회원가입 밉 로그인 
 ![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif)
 ### 이력서 등록
