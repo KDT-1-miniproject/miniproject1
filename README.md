@@ -4,13 +4,11 @@
 # 시연 영상
 https://www.youtube.com/watch?v=ZHjjhayQqIM 
 
-| --- | --- |
-| ![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif) |  ![2  이력서 등록](https://user-images.githubusercontent.com/80329856/232674072-734882cd-1a9c-400e-b363-fc91009a140f.gif)  |
-| '구직자 회원가입 밉 로그인'  |  '이력서 등록'  |
-
-
-
-
+## 시연영상 gif
+### 구직자 회원가입 밉 로그인
+![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif) 
+### 이력서 등록
+![2  이력서 등록](https://user-images.githubusercontent.com/80329856/232674072-734882cd-1a9c-400e-b363-fc91009a140f.gif)  
 ### 공고 지원
 ![3  공고 지원](https://user-images.githubusercontent.com/80329856/232674078-8d0558ba-7a6f-4b4c-bf50-1c9e1843d346.gif)
 ### 지원 이력 확인 - 합격 메시지 확인
@@ -36,7 +34,8 @@ https://www.youtube.com/watch?v=ZHjjhayQqIM
 ###  추천 인재
 ![14  추천 인재](https://user-images.githubusercontent.com/80329856/232674110-6fc37203-4c43-4a4d-9239-285eff26fd2f.gif)
 
-
+## PPT
+[1조_미니프로젝트1_PPT.pdf](https://github.com/KDT-1-miniproject/miniproject1/files/11340943/1._.1_PPT.pdf)
 
 
 ## 기술스택
