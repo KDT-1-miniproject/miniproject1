@@ -4,6 +4,9 @@
 # 시연 영상
 https://www.youtube.com/watch?v=ZHjjhayQqIM 
 
+## PPT
+[1조_미니프로젝트1_PPT.pdf](https://github.com/KDT-1-miniproject/miniproject1/files/11340943/1._.1_PPT.pdf)
+
 ## 시연영상 gif
 ### 구직자 회원가입 밉 로그인
 ![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif) 
@@ -34,8 +37,7 @@ https://www.youtube.com/watch?v=ZHjjhayQqIM
 ###  추천 인재
 ![14  추천 인재](https://user-images.githubusercontent.com/80329856/232674110-6fc37203-4c43-4a4d-9239-285eff26fd2f.gif)
 
-## PPT
-[1조_미니프로젝트1_PPT.pdf](https://github.com/KDT-1-miniproject/miniproject1/files/11340943/1._.1_PPT.pdf)
+
 
 
 ## 기술스택
