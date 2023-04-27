@@ -1,6 +1,43 @@
 # 구인구직 프로젝트
 ![image](https://user-images.githubusercontent.com/80329856/232003130-0d034b5c-6d6f-447e-a9ac-aac21f46c4d5.png)
 
+# 시연 영상
+https://www.youtube.com/watch?v=ZHjjhayQqIM 
+
+| ![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif) |  ![2  이력서 등록](https://user-images.githubusercontent.com/80329856/232674072-734882cd-1a9c-400e-b363-fc91009a140f.gif)  |
+| '구직자 회원가입 밉 로그인'  |  '이력서 등록'  |
+
+
+
+
+### 공고 지원
+![3  공고 지원](https://user-images.githubusercontent.com/80329856/232674078-8d0558ba-7a6f-4b4c-bf50-1c9e1843d346.gif)
+### 지원 이력 확인 - 합격 메시지 확인
+![4  지원 이력 확인 - 합격 메세지 확인](https://user-images.githubusercontent.com/80329856/232674081-5a3ce57b-080b-4844-baf9-dfd3e737f7d2.gif)
+### 스크랩 관리
+![5  스크랩 관리](https://user-images.githubusercontent.com/80329856/232674083-40b75371-cb44-4ab1-b427-f4e5207438b0.gif)
+### 이력서 삭제
+![6  이력서 삭제](https://user-images.githubusercontent.com/80329856/232674086-363f86c2-364f-425a-931f-56d7f829f96a.gif)
+### 이력서 수정
+![7  이력서 수정](https://user-images.githubusercontent.com/80329856/232674087-95f5ffd5-8ac4-4eea-a067-32de3c122120.gif)
+###  개인 회원 정보 수정
+![8  개인 회원 정보 수정](https://user-images.githubusercontent.com/80329856/232674089-526f59ef-7693-48f8-b0db-aa7e0e870176.gif)
+###  기업 로그인
+![9  기업 로그인](https://user-images.githubusercontent.com/80329856/232674092-03d1b45b-97c9-4afb-b18f-5e25e97977ed.gif)
+### 공고 등록
+![10  공고 등록](https://user-images.githubusercontent.com/80329856/232674098-78d018b7-eecb-4792-9131-65b1981cd3a1.gif)
+### 공고 수정 및 삭제
+![11  공고 수정 및삭제](https://user-images.githubusercontent.com/80329856/232674102-4c9c46a5-a90b-4fd4-bbcb-2e3aed549471.gif)
+### 지원 이력서 관리
+![12  지원 이력서 관리](https://user-images.githubusercontent.com/80329856/232674105-176d7e98-1cf3-4bb8-bfce-f23acfe1a620.gif)
+### 합격 메세지 보내기
+![13  합격 메세지 보내기](https://user-images.githubusercontent.com/80329856/232674108-aa6bf02c-fd81-430a-8f93-76eec409ad4a.gif)
+###  추천 인재
+![14  추천 인재](https://user-images.githubusercontent.com/80329856/232674110-6fc37203-4c43-4a4d-9239-285eff26fd2f.gif)
+
+
+
+
 ## 기술스택
 ![image](https://user-images.githubusercontent.com/80329856/232003244-16c70937-4628-4776-b315-eb2f4d6e5882.png)
 - JDK 11
@@ -111,41 +148,6 @@
     - 기업 공고리스트, 추천 이력서 리스트, 제안 리스트
 - 기업에 대한 평점
 - (개인)메인에서의 구인 공고 필터링
-
-
-# 시연 영상
-https://www.youtube.com/watch?v=ZHjjhayQqIM 
-
-### 구직자 회원가입 밉 로그인 
-![1  개인 회원가입 및 로그인](https://user-images.githubusercontent.com/80329856/232674048-640b4547-48a4-4a74-a2bd-c3249d3e1616.gif)
-### 이력서 등록
-![2  이력서 등록](https://user-images.githubusercontent.com/80329856/232674072-734882cd-1a9c-400e-b363-fc91009a140f.gif)
-### 공고 지원
-![3  공고 지원](https://user-images.githubusercontent.com/80329856/232674078-8d0558ba-7a6f-4b4c-bf50-1c9e1843d346.gif)
-### 지원 이력 확인 - 합격 메시지 확인
-![4  지원 이력 확인 - 합격 메세지 확인](https://user-images.githubusercontent.com/80329856/232674081-5a3ce57b-080b-4844-baf9-dfd3e737f7d2.gif)
-### 스크랩 관리
-![5  스크랩 관리](https://user-images.githubusercontent.com/80329856/232674083-40b75371-cb44-4ab1-b427-f4e5207438b0.gif)
-### 이력서 삭제
-![6  이력서 삭제](https://user-images.githubusercontent.com/80329856/232674086-363f86c2-364f-425a-931f-56d7f829f96a.gif)
-### 이력서 수정
-![7  이력서 수정](https://user-images.githubusercontent.com/80329856/232674087-95f5ffd5-8ac4-4eea-a067-32de3c122120.gif)
-###  개인 회원 정보 수정
-![8  개인 회원 정보 수정](https://user-images.githubusercontent.com/80329856/232674089-526f59ef-7693-48f8-b0db-aa7e0e870176.gif)
-###  기업 로그인
-![9  기업 로그인](https://user-images.githubusercontent.com/80329856/232674092-03d1b45b-97c9-4afb-b18f-5e25e97977ed.gif)
-### 공고 등록
-![10  공고 등록](https://user-images.githubusercontent.com/80329856/232674098-78d018b7-eecb-4792-9131-65b1981cd3a1.gif)
-### 공고 수정 및 삭제
-![11  공고 수정 및삭제](https://user-images.githubusercontent.com/80329856/232674102-4c9c46a5-a90b-4fd4-bbcb-2e3aed549471.gif)
-### 지원 이력서 관리
-![12  지원 이력서 관리](https://user-images.githubusercontent.com/80329856/232674105-176d7e98-1cf3-4bb8-bfce-f23acfe1a620.gif)
-### 합격 메세지 보내기
-![13  합격 메세지 보내기](https://user-images.githubusercontent.com/80329856/232674108-aa6bf02c-fd81-430a-8f93-76eec409ad4a.gif)
-###  추천 인재
-![14  추천 인재](https://user-images.githubusercontent.com/80329856/232674110-6fc37203-4c43-4a4d-9239-285eff26fd2f.gif)
-
-
 
 
 ## 코드 컨벤션
